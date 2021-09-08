@@ -118,16 +118,12 @@ setup(
             "pylint",
         ],
     },
-    # MAYBE-DISABLE: use_2to3
-    use_2to3= bool(python_version >= 3.0),
     license="BSD",
     classifiers=[
         "Development Status :: 4 - Beta",
         "Environment :: Console",
         "Intended Audience :: Developers",
         "Operating System :: OS Independent",
-        "Programming Language :: Python :: 2",
-        "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.3",
         "Programming Language :: Python :: 3.4",
